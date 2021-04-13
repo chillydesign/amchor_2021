@@ -1,0 +1,29 @@
+/*
+Theme Name: Amchor 2021 / Churhius
+Template: amchor_2021
+Author: Chilly/monkeysan
+Author URI: https://themeforest.net/user/monkeysan/portfolio
+Version: 1.0
+*/
+
+/*------------------------------------------------------------------
+[Add Your Custom CSS Here] */
+
+.tribe-common .tribe-common-b2,
+.tribe-common .tribe-common-h5,
+.tribe-common .tribe-common-h6 {
+    color: #aaa;
+
+}
+
+.tribe-events-widget .tribe-events-widget-events-list__event-date-tag-month {
+    color: #aaa;
+}
+
+.tribe-common a,
+.tribe-common a:active,
+.tribe-common a:focus,
+.tribe-common a:hover,
+.tribe-common a:visited {
+    color: white;
+}
