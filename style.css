@@ -12,12 +12,12 @@ Version: 1.0
 .tribe-common .tribe-common-b2,
 .tribe-common .tribe-common-h5,
 .tribe-common .tribe-common-h6 {
-    color: #aaa;
+    color: #aaa !important;
 
 }
 
 .tribe-events-widget .tribe-events-widget-events-list__event-date-tag-month {
-    color: #aaa;
+    color: #aaa !important;
 }
 
 .tribe-common a,
@@ -25,5 +25,5 @@ Version: 1.0
 .tribe-common a:focus,
 .tribe-common a:hover,
 .tribe-common a:visited {
-    color: white;
+    color: white !important;
 }
