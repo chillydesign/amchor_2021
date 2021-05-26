@@ -48,3 +48,8 @@ body .header.style-1 .logo {
 body .page-section {
     padding-bottom: 0px;
 }
+
+.event-cell .event-action>.event-action-button {
+    display: none;
+
+}
