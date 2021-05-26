@@ -27,3 +27,17 @@ Version: 1.0
 .tribe-common a:visited {
     color: white !important;
 }
+
+
+
+body .page-content-wrap {
+    padding-top: 0;
+}
+
+body .page-section:first-child {
+    padding-top: 0;
+}
+
+body .vc_message_box {
+    margin-top: 30px;
+}
