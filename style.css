@@ -30,7 +30,7 @@ Version: 1.0
 
 
 
-body .page-content-wrap {
+body.home .page-content-wrap {
     padding-top: 0;
 }
 
@@ -38,9 +38,7 @@ body .page-section:first-child {
     padding-top: 0;
 }
 
-body .vc_message_box {
-    margin-top: 30px;
-}
+
 
 body .header.style-1 .logo {
     top: 30px;
@@ -48,5 +46,5 @@ body .header.style-1 .logo {
 }
 
 body .page-section {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
