@@ -54,16 +54,18 @@ body.home .event-cell .event-action>.event-action-button {
 
 }
 
-body.home .event-title a {
+body.home .event-title {
     position: relative;
 }
 
-body.home .event-title a::after {
+body.home .event-title::after {
     content: '';
     position: absolute;
     width: 100%;
     z-index: 20;
     cursor: default;
     padding: 4px;
+    top: 0;
+    left: 0;
 
 }
