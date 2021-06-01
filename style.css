@@ -55,12 +55,14 @@ body.home .event-cell .event-action>.event-action-button {
 }
 
 body.home .event-title,
-body.home .sermons-box h5.entry-title {
+body.home .sermons-box h5.entry-title,
+body.home .sermons-box .thumbnail-attachment {
     position: relative;
 }
 
 body.home .event-title::after,
-body.home .sermons-box h5.entry-title::after {
+body.home .sermons-box h5.entry-title::after,
+body.home .sermons-box .thumbnail-attachment::after {
     content: '';
     position: absolute;
     width: 100%;
