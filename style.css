@@ -20,6 +20,11 @@ Version: 1.0
     color: #aaa !important;
 }
 
+
+.tribe-events-widget .tribe-events-widget-events-list__event-date-tag-daynum {
+    color: #fff !important;
+}
+
 .tribe-common a,
 .tribe-common a:active,
 .tribe-common a:focus,
