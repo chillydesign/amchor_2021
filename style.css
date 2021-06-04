@@ -79,3 +79,7 @@ body.home .sermons-box .thumbnail-attachment::after {
     height: 108%;
 
 }
+
+body h1.page-title {
+    padding-top: 50px;
+}
