@@ -28,7 +28,7 @@ if (!function_exists('churhius_child_enqueue_styles')) {
 
 
 
-		wp_register_script('scripts', $tdu . '/js/scripts.js', array(), wf_version(), true);
+		wp_register_script('scripts', $tdu . '/scripts.js', array(), wf_version(), true);
 		wp_enqueue_script('scripts'); // Enqueue it!
 
 
