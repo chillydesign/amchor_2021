@@ -25,12 +25,13 @@ if (!function_exists('churhius_child_enqueue_styles')) {
 		if (is_rtl()) {
 			wp_enqueue_style('churhius-child-style-rtl', get_stylesheet_directory_uri() . '/rtl.css');
 		}
-
-
-
-		wp_register_script('scripts_wf', $tdu . '/scripts.js',  array($parent_style), wf_version(), true);
-		wp_enqueue_script('scripts_wf'); // Enqueue it!
-
-
 	}
 }
+
+function my_custom_scripts() {
+
+	$tdu = get_template_directory_uri();
+	wp_register_script('scripts_wf', $tdu . '/scripts.js',  array('jquery'), wf_version(), true);
+	wp_enqueue_script('scripts_wf'); // Enqueue it!
+}
+add_action('wp_enqueue_scripts', 'my_custom_scripts');
