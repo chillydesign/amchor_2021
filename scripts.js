@@ -5,9 +5,9 @@
 
 
         $('.close-search-form').on('click', function (e) {
-            $('searchform-wrap').addClass('closed').removeClass('opened');
+            $('.searchform-wrap').addClass('closed').removeClass('opened');
             setTimeout(() => {
-                $('searchform-wrap').removeClass('closed');
+                $('.searchform-wrap').removeClass('closed');
             }, 500);
         })
 
