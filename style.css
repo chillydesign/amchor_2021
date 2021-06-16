@@ -25,6 +25,7 @@ Version: 1.0
     color: #fff !important;
 }
 
+
 .tribe-common a,
 .tribe-common a:active,
 .tribe-common a:focus,
@@ -83,6 +84,11 @@ body.home .sermons-box .thumbnail-attachment::after {
     z-index: 20;
     height: 108%;
 
+}
+
+body.home .event-box .event .tribe-events-event-image a {
+    pointer-events: none;
+    cursor: default;
 }
 
 body h1.page-title {
