@@ -100,7 +100,7 @@ footer.footer i.icon-twitter {
     font-size: 2em;
 }
 
-footer.footer i.icon-facebook:before {
+footer.footer i.icon-facebook:after {
 
     content: 'Facebook';
     font-size: 16px;
