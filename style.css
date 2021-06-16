@@ -34,6 +34,11 @@ Version: 1.0
 }
 
 
+body.home .header .top-header .logo {
+
+    top: -10px;
+}
+
 
 body.home .page-content-wrap {
     padding-top: 0;
