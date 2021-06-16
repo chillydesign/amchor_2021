@@ -94,3 +94,17 @@ body.home .event-box .event .tribe-events-event-image a {
 body h1.page-title {
     padding-top: 50px;
 }
+
+footer.footer i.icon-facebook,
+footer.footer i.icon-twitter {
+    font-size: 2em;
+}
+
+footer.footer i.icon-facebook:before {
+
+    content: 'Facebook';
+    font-size: 16px;
+    font-style: normal;
+    margin: 0 0 0 9px;
+
+}
