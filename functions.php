@@ -30,7 +30,7 @@ if (!function_exists('churhius_child_enqueue_styles')) {
 
 function my_custom_scripts() {
 
-	$tdu = get_template_directory_uri();
+	$tdu = get_stylesheet_directory_uri();
 	wp_register_script('scripts_wf', $tdu . '/scripts.js',  array('jquery'), wf_version(), true);
 	wp_enqueue_script('scripts_wf'); // Enqueue it!
 }
