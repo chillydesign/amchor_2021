@@ -60,7 +60,8 @@ body .page-section {
     padding-bottom: 0px;
 }
 
-body.home .event-cell .event-action>.event-action-button {
+body.home .event-cell .event-action>.event-action-button,
+body.home .event-cell .social-post-button {
     display: none;
 
 }
