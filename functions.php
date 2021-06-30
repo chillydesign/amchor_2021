@@ -6,7 +6,7 @@
  */
 
 function wf_version() {
-	return '0.0.8';
+	return '0.0.9';
 }
 
 

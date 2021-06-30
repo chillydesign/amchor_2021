@@ -38,12 +38,17 @@ Version: 1.0
 body .header .top-header .logo {
 
     top: -20px !important;
-    max-width: 135px !important;
+    width: 127px !important;
+    max-width: 127px !important;
 }
 
 
 body.home .page-content-wrap {
     padding-top: 0;
+}
+
+body .standard-logo {
+    width: 100%;
 }
 
 body .page-section:first-child {
