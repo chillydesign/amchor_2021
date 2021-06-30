@@ -42,6 +42,10 @@ body .header .top-header .logo {
     max-width: 127px !important;
 }
 
+body.home .header .top-header .logo {
+    top: -35px !important;
+}
+
 
 body.home .page-content-wrap {
     padding-top: 0;
