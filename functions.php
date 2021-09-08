@@ -35,3 +35,7 @@ function my_custom_scripts() {
 	wp_enqueue_script('scripts_wf'); // Enqueue it!
 }
 add_action('wp_enqueue_scripts', 'my_custom_scripts');
+
+
+// dont require sending email to change email
+add_filter('send_email_change_email', '__return_false');
