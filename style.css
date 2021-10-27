@@ -76,13 +76,13 @@ body.home .event-cell .social-post-button {
 
 }
 
-body.home .event-title,
+/* body.home .event-title, */
 body.home .sermons-box h5.entry-title,
 body.home .sermons-box .thumbnail-attachment {
     position: relative;
 }
 
-body.home .event-title::after,
+/* body.home .event-title::after, */
 body.home .sermons-box h5.entry-title::after,
 body.home .sermons-box .thumbnail-attachment::after {
     content: '';
@@ -97,10 +97,10 @@ body.home .sermons-box .thumbnail-attachment::after {
 
 }
 
-body.home .event-box .event .tribe-events-event-image a {
+/* body.home .event-box .event .tribe-events-event-image a {
     pointer-events: none;
     cursor: default;
-}
+} */
 
 body h1.page-title {
     padding-top: 50px;
